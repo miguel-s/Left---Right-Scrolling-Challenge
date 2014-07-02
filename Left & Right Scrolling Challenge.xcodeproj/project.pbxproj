@@ -17,7 +17,6 @@
 		39ADD6421964A27600376E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD6401964A27600376E8F /* Main.storyboard */; };
 		39ADD6451964A27600376E8F /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD6441964A27600376E8F /* MSViewController.m */; };
 		39ADD6481964A27600376E8F /* MSMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD6471964A27600376E8F /* MSMyScene.m */; };
-		39ADD64A1964A27600376E8F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD6491964A27600376E8F /* Spaceship.png */; };
 		39ADD64C1964A27600376E8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD64B1964A27600376E8F /* Images.xcassets */; };
 		39ADD6531964A27600376E8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD6521964A27600376E8F /* XCTest.framework */; };
 		39ADD6541964A27600376E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD62C1964A27600376E8F /* Foundation.framework */; };
@@ -53,7 +52,6 @@
 		39ADD6441964A27600376E8F /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
 		39ADD6461964A27600376E8F /* MSMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMyScene.h; sourceTree = "<group>"; };
 		39ADD6471964A27600376E8F /* MSMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMyScene.m; sourceTree = "<group>"; };
-		39ADD6491964A27600376E8F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		39ADD64B1964A27600376E8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39ADD6511964A27600376E8F /* Left & Right Scrolling ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Left & Right Scrolling ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39ADD6521964A27600376E8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,7 +126,6 @@
 				39ADD6441964A27600376E8F /* MSViewController.m */,
 				39ADD6461964A27600376E8F /* MSMyScene.h */,
 				39ADD6471964A27600376E8F /* MSMyScene.m */,
-				39ADD6491964A27600376E8F /* Spaceship.png */,
 				39ADD64B1964A27600376E8F /* Images.xcassets */,
 				39ADD6351964A27600376E8F /* Supporting Files */,
 			);
@@ -243,7 +240,6 @@
 			files = (
 				39ADD6391964A27600376E8F /* InfoPlist.strings in Resources */,
 				39ADD64C1964A27600376E8F /* Images.xcassets in Resources */,
-				39ADD64A1964A27600376E8F /* Spaceship.png in Resources */,
 				39ADD6421964A27600376E8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
