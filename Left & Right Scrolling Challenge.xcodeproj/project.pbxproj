@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39ADD62D1964A27600376E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD62C1964A27600376E8F /* Foundation.framework */; };
+		39ADD62F1964A27600376E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD62E1964A27600376E8F /* CoreGraphics.framework */; };
+		39ADD6311964A27600376E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD6301964A27600376E8F /* UIKit.framework */; };
+		39ADD6331964A27600376E8F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD6321964A27600376E8F /* SpriteKit.framework */; };
+		39ADD6391964A27600376E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD6371964A27600376E8F /* InfoPlist.strings */; };
+		39ADD63B1964A27600376E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD63A1964A27600376E8F /* main.m */; };
+		39ADD63F1964A27600376E8F /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD63E1964A27600376E8F /* MSAppDelegate.m */; };
+		39ADD6421964A27600376E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD6401964A27600376E8F /* Main.storyboard */; };
+		39ADD6451964A27600376E8F /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD6441964A27600376E8F /* MSViewController.m */; };
+		39ADD6481964A27600376E8F /* MSMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD6471964A27600376E8F /* MSMyScene.m */; };
+		39ADD64A1964A27600376E8F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD6491964A27600376E8F /* Spaceship.png */; };
+		39ADD64C1964A27600376E8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD64B1964A27600376E8F /* Images.xcassets */; };
+		39ADD6531964A27600376E8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD6521964A27600376E8F /* XCTest.framework */; };
+		39ADD6541964A27600376E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD62C1964A27600376E8F /* Foundation.framework */; };
+		39ADD6551964A27600376E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD6301964A27600376E8F /* UIKit.framework */; };
+		39ADD65D1964A27600376E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD65B1964A27600376E8F /* InfoPlist.strings */; };
+		39ADD65F1964A27600376E8F /* Left___Right_Scrolling_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD65E1964A27600376E8F /* Left___Right_Scrolling_ChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39ADD6561964A27600376E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39ADD6211964A27600376E8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39ADD6281964A27600376E8F;
+			remoteInfo = "Left & Right Scrolling Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39ADD6291964A27600376E8F /* Left & Right Scrolling Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Left & Right Scrolling Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39ADD62C1964A27600376E8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39ADD62E1964A27600376E8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39ADD6301964A27600376E8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39ADD6321964A27600376E8F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		39ADD6361964A27600376E8F /* Left & Right Scrolling Challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Left & Right Scrolling Challenge-Info.plist"; sourceTree = "<group>"; };
+		39ADD6381964A27600376E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39ADD63A1964A27600376E8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39ADD63C1964A27600376E8F /* Left & Right Scrolling Challenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Left & Right Scrolling Challenge-Prefix.pch"; sourceTree = "<group>"; };
+		39ADD63D1964A27600376E8F /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		39ADD63E1964A27600376E8F /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		39ADD6411964A27600376E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39ADD6431964A27600376E8F /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		39ADD6441964A27600376E8F /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		39ADD6461964A27600376E8F /* MSMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMyScene.h; sourceTree = "<group>"; };
+		39ADD6471964A27600376E8F /* MSMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMyScene.m; sourceTree = "<group>"; };
+		39ADD6491964A27600376E8F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		39ADD64B1964A27600376E8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39ADD6511964A27600376E8F /* Left & Right Scrolling ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Left & Right Scrolling ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39ADD6521964A27600376E8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39ADD65A1964A27600376E8F /* Left & Right Scrolling ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Left & Right Scrolling ChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		39ADD65C1964A27600376E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39ADD65E1964A27600376E8F /* Left___Right_Scrolling_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Left___Right_Scrolling_ChallengeTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39ADD6261964A27600376E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ADD62F1964A27600376E8F /* CoreGraphics.framework in Frameworks */,
+				39ADD6311964A27600376E8F /* UIKit.framework in Frameworks */,
+				39ADD6331964A27600376E8F /* SpriteKit.framework in Frameworks */,
+				39ADD62D1964A27600376E8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADD64E1964A27600376E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ADD6531964A27600376E8F /* XCTest.framework in Frameworks */,
+				39ADD6551964A27600376E8F /* UIKit.framework in Frameworks */,
+				39ADD6541964A27600376E8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39ADD6201964A27600376E8F = {
+			isa = PBXGroup;
+			children = (
+				39ADD6341964A27600376E8F /* Left & Right Scrolling Challenge */,
+				39ADD6581964A27600376E8F /* Left & Right Scrolling ChallengeTests */,
+				39ADD62B1964A27600376E8F /* Frameworks */,
+				39ADD62A1964A27600376E8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39ADD62A1964A27600376E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39ADD6291964A27600376E8F /* Left & Right Scrolling Challenge.app */,
+				39ADD6511964A27600376E8F /* Left & Right Scrolling ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39ADD62B1964A27600376E8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39ADD62C1964A27600376E8F /* Foundation.framework */,
+				39ADD62E1964A27600376E8F /* CoreGraphics.framework */,
+				39ADD6301964A27600376E8F /* UIKit.framework */,
+				39ADD6321964A27600376E8F /* SpriteKit.framework */,
+				39ADD6521964A27600376E8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39ADD6341964A27600376E8F /* Left & Right Scrolling Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				39ADD63D1964A27600376E8F /* MSAppDelegate.h */,
+				39ADD63E1964A27600376E8F /* MSAppDelegate.m */,
+				39ADD6401964A27600376E8F /* Main.storyboard */,
+				39ADD6431964A27600376E8F /* MSViewController.h */,
+				39ADD6441964A27600376E8F /* MSViewController.m */,
+				39ADD6461964A27600376E8F /* MSMyScene.h */,
+				39ADD6471964A27600376E8F /* MSMyScene.m */,
+				39ADD6491964A27600376E8F /* Spaceship.png */,
+				39ADD64B1964A27600376E8F /* Images.xcassets */,
+				39ADD6351964A27600376E8F /* Supporting Files */,
+			);
+			path = "Left & Right Scrolling Challenge";
+			sourceTree = "<group>";
+		};
+		39ADD6351964A27600376E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39ADD6361964A27600376E8F /* Left & Right Scrolling Challenge-Info.plist */,
+				39ADD6371964A27600376E8F /* InfoPlist.strings */,
+				39ADD63A1964A27600376E8F /* main.m */,
+				39ADD63C1964A27600376E8F /* Left & Right Scrolling Challenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39ADD6581964A27600376E8F /* Left & Right Scrolling ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				39ADD65E1964A27600376E8F /* Left___Right_Scrolling_ChallengeTests.m */,
+				39ADD6591964A27600376E8F /* Supporting Files */,
+			);
+			path = "Left & Right Scrolling ChallengeTests";
+			sourceTree = "<group>";
+		};
+		39ADD6591964A27600376E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39ADD65A1964A27600376E8F /* Left & Right Scrolling ChallengeTests-Info.plist */,
+				39ADD65B1964A27600376E8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39ADD6281964A27600376E8F /* Left & Right Scrolling Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39ADD6621964A27600376E8F /* Build configuration list for PBXNativeTarget "Left & Right Scrolling Challenge" */;
+			buildPhases = (
+				39ADD6251964A27600376E8F /* Sources */,
+				39ADD6261964A27600376E8F /* Frameworks */,
+				39ADD6271964A27600376E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Left & Right Scrolling Challenge";
+			productName = "Left & Right Scrolling Challenge";
+			productReference = 39ADD6291964A27600376E8F /* Left & Right Scrolling Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39ADD6501964A27600376E8F /* Left & Right Scrolling ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39ADD6651964A27600376E8F /* Build configuration list for PBXNativeTarget "Left & Right Scrolling ChallengeTests" */;
+			buildPhases = (
+				39ADD64D1964A27600376E8F /* Sources */,
+				39ADD64E1964A27600376E8F /* Frameworks */,
+				39ADD64F1964A27600376E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39ADD6571964A27600376E8F /* PBXTargetDependency */,
+			);
+			name = "Left & Right Scrolling ChallengeTests";
+			productName = "Left & Right Scrolling ChallengeTests";
+			productReference = 39ADD6511964A27600376E8F /* Left & Right Scrolling ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39ADD6211964A27600376E8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Miguel Serrano";
+				TargetAttributes = {
+					39ADD6501964A27600376E8F = {
+						TestTargetID = 39ADD6281964A27600376E8F;
+					};
+				};
+			};
+			buildConfigurationList = 39ADD6241964A27600376E8F /* Build configuration list for PBXProject "Left & Right Scrolling Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39ADD6201964A27600376E8F;
+			productRefGroup = 39ADD62A1964A27600376E8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39ADD6281964A27600376E8F /* Left & Right Scrolling Challenge */,
+				39ADD6501964A27600376E8F /* Left & Right Scrolling ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39ADD6271964A27600376E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ADD6391964A27600376E8F /* InfoPlist.strings in Resources */,
+				39ADD64C1964A27600376E8F /* Images.xcassets in Resources */,
+				39ADD64A1964A27600376E8F /* Spaceship.png in Resources */,
+				39ADD6421964A27600376E8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADD64F1964A27600376E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ADD65D1964A27600376E8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39ADD6251964A27600376E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ADD63F1964A27600376E8F /* MSAppDelegate.m in Sources */,
+				39ADD6451964A27600376E8F /* MSViewController.m in Sources */,
+				39ADD6481964A27600376E8F /* MSMyScene.m in Sources */,
+				39ADD63B1964A27600376E8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39ADD64D1964A27600376E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ADD65F1964A27600376E8F /* Left___Right_Scrolling_ChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39ADD6571964A27600376E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39ADD6281964A27600376E8F /* Left & Right Scrolling Challenge */;
+			targetProxy = 39ADD6561964A27600376E8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39ADD6371964A27600376E8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39ADD6381964A27600376E8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39ADD6401964A27600376E8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39ADD6411964A27600376E8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39ADD65B1964A27600376E8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39ADD65C1964A27600376E8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39ADD6601964A27600376E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39ADD6611964A27600376E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39ADD6631964A27600376E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Left & Right Scrolling Challenge/Left & Right Scrolling Challenge-Prefix.pch";
+				INFOPLIST_FILE = "Left & Right Scrolling Challenge/Left & Right Scrolling Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39ADD6641964A27600376E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Left & Right Scrolling Challenge/Left & Right Scrolling Challenge-Prefix.pch";
+				INFOPLIST_FILE = "Left & Right Scrolling Challenge/Left & Right Scrolling Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39ADD6661964A27600376E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Left & Right Scrolling Challenge.app/Left & Right Scrolling Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Left & Right Scrolling Challenge/Left & Right Scrolling Challenge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Left & Right Scrolling ChallengeTests/Left & Right Scrolling ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39ADD6671964A27600376E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Left & Right Scrolling Challenge.app/Left & Right Scrolling Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Left & Right Scrolling Challenge/Left & Right Scrolling Challenge-Prefix.pch";
+				INFOPLIST_FILE = "Left & Right Scrolling ChallengeTests/Left & Right Scrolling ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39ADD6241964A27600376E8F /* Build configuration list for PBXProject "Left & Right Scrolling Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ADD6601964A27600376E8F /* Debug */,
+				39ADD6611964A27600376E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39ADD6621964A27600376E8F /* Build configuration list for PBXNativeTarget "Left & Right Scrolling Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ADD6631964A27600376E8F /* Debug */,
+				39ADD6641964A27600376E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39ADD6651964A27600376E8F /* Build configuration list for PBXNativeTarget "Left & Right Scrolling ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ADD6661964A27600376E8F /* Debug */,
+				39ADD6671964A27600376E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39ADD6211964A27600376E8F /* Project object */;
+}
