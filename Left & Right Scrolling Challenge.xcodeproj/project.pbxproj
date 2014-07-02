@@ -23,6 +23,8 @@
 		39ADD6551964A27600376E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ADD6301964A27600376E8F /* UIKit.framework */; };
 		39ADD65D1964A27600376E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD65B1964A27600376E8F /* InfoPlist.strings */; };
 		39ADD65F1964A27600376E8F /* Left___Right_Scrolling_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD65E1964A27600376E8F /* Left___Right_Scrolling_ChallengeTests.m */; };
+		39ADD66A1964A3F500376E8F /* MSLinkedSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ADD6691964A3F500376E8F /* MSLinkedSpriteNode.m */; };
+		39ADD66C1964A5FC00376E8F /* Graphics.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 39ADD66B1964A5FC00376E8F /* Graphics.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		39ADD65A1964A27600376E8F /* Left & Right Scrolling ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Left & Right Scrolling ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		39ADD65C1964A27600376E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39ADD65E1964A27600376E8F /* Left___Right_Scrolling_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Left___Right_Scrolling_ChallengeTests.m"; sourceTree = "<group>"; };
+		39ADD6681964A3F500376E8F /* MSLinkedSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLinkedSpriteNode.h; sourceTree = "<group>"; };
+		39ADD6691964A3F500376E8F /* MSLinkedSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLinkedSpriteNode.m; sourceTree = "<group>"; };
+		39ADD66B1964A5FC00376E8F /* Graphics.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Graphics.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +131,10 @@
 				39ADD6441964A27600376E8F /* MSViewController.m */,
 				39ADD6461964A27600376E8F /* MSMyScene.h */,
 				39ADD6471964A27600376E8F /* MSMyScene.m */,
+				39ADD6681964A3F500376E8F /* MSLinkedSpriteNode.h */,
+				39ADD6691964A3F500376E8F /* MSLinkedSpriteNode.m */,
 				39ADD64B1964A27600376E8F /* Images.xcassets */,
+				39ADD66B1964A5FC00376E8F /* Graphics.atlas */,
 				39ADD6351964A27600376E8F /* Supporting Files */,
 			);
 			path = "Left & Right Scrolling Challenge";
@@ -240,6 +248,7 @@
 			files = (
 				39ADD6391964A27600376E8F /* InfoPlist.strings in Resources */,
 				39ADD64C1964A27600376E8F /* Images.xcassets in Resources */,
+				39ADD66C1964A5FC00376E8F /* Graphics.atlas in Resources */,
 				39ADD6421964A27600376E8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39ADD63F1964A27600376E8F /* MSAppDelegate.m in Sources */,
+				39ADD66A1964A3F500376E8F /* MSLinkedSpriteNode.m in Sources */,
 				39ADD6451964A27600376E8F /* MSViewController.m in Sources */,
 				39ADD6481964A27600376E8F /* MSMyScene.m in Sources */,
 				39ADD63B1964A27600376E8F /* main.m in Sources */,
