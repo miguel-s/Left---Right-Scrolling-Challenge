@@ -15,17 +15,25 @@
 {
     [super viewDidLoad];
 
+}
+
+- (void)viewWillLayoutSubviews {
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
     
-    // Create and configure the scene.
-    SKScene * scene = [MSMyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
+    if (!skView.scene) {
+        skView.showsFPS = YES;
+        skView.showsNodeCount = YES;
+        
+        // Create and configure the scene.
+        SKScene * scene = [MSMyScene sceneWithSize:skView.bounds.size];
+        scene.scaleMode = SKSceneScaleModeAspectFill;
+        
+        // Present the scene.
+        [skView presentScene:scene];
+    }
+
 }
 
 - (BOOL)prefersStatusBarHidden {

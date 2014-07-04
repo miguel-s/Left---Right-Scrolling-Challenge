@@ -26,6 +26,8 @@ static const CGFloat kMSMinFPS = 10.0 / 60.0;
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
+        self.backgroundColor = [SKColor colorWithRed:0.0 / 255.0 green:153.0 / 255.0 blue:255.0 / 255.0 alpha:1.0];
+        
         SKTextureAtlas *atlas = [SKTextureAtlas atlasNamed:@"Graphics"];
         
         self.tileArray = [[NSMutableArray alloc] initWithCapacity:3];
@@ -33,7 +35,7 @@ static const CGFloat kMSMinFPS = 10.0 / 60.0;
         for (int i = 0; i < 3; i++) {
             MSLinkedSpriteNode *node = [[MSLinkedSpriteNode alloc] initWithTexture:[atlas textureNamed:@"desert_BG"]];
             node.anchorPoint = CGPointZero;
-            node.position = CGPointMake(node.size.width * i, node.size.height);
+            node.position = CGPointMake(node.size.width * i, 0.0);
             
             if (i == 0) {
                 self.leftmostTile = node;
@@ -44,7 +46,7 @@ static const CGFloat kMSMinFPS = 10.0 / 60.0;
             [self.tileArray addObject:node];
             [self addChild:node];
         }
-        self.horizontalScrollingSpeed = -15.0;
+        self.horizontalScrollingSpeed = -150.0;
     }
     return self;
 }
